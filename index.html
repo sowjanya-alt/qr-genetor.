@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR  generator</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
+            background-repeat: no-repeat;
+            display: cover;
+            background-image: url(mobil.gif);
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url(mobil.gif);
+            background-repeat: no-repeat;
+            display: cover;
+            
+    
+        }
+        .wrapper{
+            height: 260px;
+            background: #fff;
+            max-width: 410px;
+            border-radius: 7px;
+            padding: 16px 25px;
+            
+        }
+                
+        header h1{
+            font-size: 21px;
+            font-weight: 500;
+
+        }
+        header p{
+            font-size: 16px;
+            margin-top:5px ;
+            color: #474747;
+        }
+        .wrapper .from{
+            margin: 20px 0 30px;
+        }
+        .from :where(input,button){
+            width: 100%;
+            height: 55px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+        }
+        .from input{
+            font-size: 18px;
+            border: 1px solid #999;
+            padding:  0 17px ;
+        }
+        .from button{
+            color: #fff;
+            cursor: pointer;
+            margin-top: 20px;
+            background: #3498db;
+            font-size: 17px;
+        }
+        
+            
+
+    </style>
+</head>
+
+
+<body>
+    <div class="wrapper">
+<header>
+    <h1>QR generator</h1>
+    <p>paste a url or enter text to create QR code</p>
+</header>
+<div class="from">
+    <input type="text" placeholder="enter text or url">    
+      <button>    generator QR </button>
+
+
+
+
+
+
+</div>
+    </div>
+    
+    
+</body>
+</html>
